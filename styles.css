@@ -1,0 +1,119 @@
+/* GLOBAL START */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+html, body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+/* GLOBAL END */
+/* NAV START */
+.nav-bg{
+    background: url("img/gymnosbg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+.nav-bar{
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: auto 1fr 1fr 1fr 1fr;
+}
+.nav-logo img{
+    width: 100px;
+}
+
+.nav-link{
+    color:rgb(255, 255, 255);
+    padding-top:9%;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+/* NAV END */
+/* Grid START */
+.main-grid{
+    padding-top:110px;
+    display: grid;
+    grid-template-rows: 80vh 100vh;
+    background: url("img/gymnosbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-landing{
+    display: grid;
+    grid-template-rows: 200px 300px 200px;
+    width: 80%;
+    margin: 0 auto;
+}
+/* LANDING START */
+.landing-logo{
+    text-align: center;
+}
+.landing-logo img{
+    margin-top:
+    width: 1050px;
+}
+.landing-text{
+    width: 80%;
+    margin: 0 auto;
+}
+.landing-text h3 {
+    font-size: 2.5em;
+    font-weight: lighter;
+    text-align: justify;
+
+}
+.landing-submit{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+}
+.landing-submit input{
+    width:50%;
+    padding: 1em;
+    border-radius: 8px;
+    border: 1px solid white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+}
+.landing-submit button{
+    border-radius: 8px;
+    background: none;
+    border: 1px solid white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    padding: 10px;
+}
+.landing-submit button:hover{
+    background: rgba(0, 0, 0, 0.8);
+    transition: 0.2s;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+/* LANDING END */
+/* Main START */
+.main-main h2{
+    text-align: center;
+    font-size: 3em;
+}
+.main-slide{
+    width: 85%;
+    margin: 0 auto;
+    background: rgba(237, 232, 232, 0.5);
+    border-radius: 8px;
+    padding: 5px;
+}
+/* Main END */
+/* Grid END */
